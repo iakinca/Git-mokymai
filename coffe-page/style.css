@@ -19,8 +19,7 @@
 .second__row {
   grid-area: 2 / 1 / 2 / 3;
   display: flex;
-  gap: 60px; 
-
+  gap: 60px;
 }
 
 .third__row {
@@ -43,15 +42,27 @@
   width: 30%;
   padding: 30px;
 }
-img {
+body > img {
   width: 70%;
-  height: auto; 
+  height: auto;
 }
 
-.third__row__h2{
-    width: 100%;
-    padding: 20px;
+.third__row__h2 {
+  width: 100%;
+  padding: 20px;
 }
-.third__row__h2 > h2{
-    font-size: 2rem;
+.third__row__h2 > h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  width: 7%;
+  height: auto;
+}
+#button1 {
+  background-color: brown;
+  font-size: 15px;
+}
+button {
+  font-size: 15px;
 }
